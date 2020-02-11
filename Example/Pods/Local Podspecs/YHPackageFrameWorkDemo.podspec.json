@@ -1,0 +1,29 @@
+{
+  "name": "YHPackageFrameWorkDemo",
+  "version": "0.1.0",
+  "summary": "A short description of YHPackageFrameWorkDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/292017666@qq.com/YHPackageFrameWorkDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "292017666@qq.com": "fuzhuowen@3cink.com"
+  },
+  "source": {
+    "git": "https://github.com/292017666@qq.com/YHPackageFrameWorkDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YHPackageFrameWorkDemo/Classes/**/*",
+  "resources": "YHPackageFrameWorkDemo/Assets/*.bundle",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}

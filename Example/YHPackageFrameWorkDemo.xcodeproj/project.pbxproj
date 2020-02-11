@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C1EDE725655A2BB61D9659 /* YHPackageFrameWorkDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YHPackageFrameWorkDemo.podspec; path = ../YHPackageFrameWorkDemo.podspec; sourceTree = "<group>"; };
-		075DF69C589D1FC79F67C3A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		03C1EDE725655A2BB61D9659 /* YHPackageFrameWorkDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YHPackageFrameWorkDemo.podspec; path = ../YHPackageFrameWorkDemo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		075DF69C589D1FC79F67C3A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		12C1384B942D5C3B48FC1DE6 /* Pods-YHPackageFrameWorkDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPackageFrameWorkDemo_Tests.release.xcconfig"; path = "Target Support Files/Pods-YHPackageFrameWorkDemo_Tests/Pods-YHPackageFrameWorkDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1AFE7428CA618B36DA85F33B /* Pods-YHPackageFrameWorkDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPackageFrameWorkDemo_Example.debug.xcconfig"; path = "Target Support Files/Pods-YHPackageFrameWorkDemo_Example/Pods-YHPackageFrameWorkDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YHPackageFrameWorkDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHPackageFrameWorkDemo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +64,7 @@
 		79DEBED51A2CE9BD187135C1 /* Pods-YHPackageFrameWorkDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPackageFrameWorkDemo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YHPackageFrameWorkDemo_Tests/Pods-YHPackageFrameWorkDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A64DC8500E32F3F4B6B0C80 /* Pods-YHPackageFrameWorkDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPackageFrameWorkDemo_Example.release.xcconfig"; path = "Target Support Files/Pods-YHPackageFrameWorkDemo_Example/Pods-YHPackageFrameWorkDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A316294A9A151274291099EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A316294A9A151274291099EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A9C8DB1380143D0B540869E6 /* Pods_YHPackageFrameWorkDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHPackageFrameWorkDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC424C4FABD6D3964B2B4B3D /* Pods_YHPackageFrameWorkDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHPackageFrameWorkDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				79DEBED51A2CE9BD187135C1 /* Pods-YHPackageFrameWorkDemo_Tests.debug.xcconfig */,
 				12C1384B942D5C3B48FC1DE6 /* Pods-YHPackageFrameWorkDemo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,10 +302,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YHPackageFrameWorkDemo_Example/Pods-YHPackageFrameWorkDemo_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/YHPackageFrameWorkDemo/YHPackageFrameWorkDemo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YHPackageFrameWorkDemo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

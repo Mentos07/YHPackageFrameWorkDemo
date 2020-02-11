@@ -7,6 +7,7 @@
 //
 
 #import "YHViewController.h"
+#import "YHPackageFrameWorkObject.h"
 
 @interface YHViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [YHPackageFrameWorkObject displayVersion];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
