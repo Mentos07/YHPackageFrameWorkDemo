@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YHPackageFrameWorkDemo_Example' do
+  pod 'YHPackageFrameWorkDemo', :path => '../'
+
+  target 'YHPackageFrameWorkDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
