@@ -20,6 +20,7 @@
     [super viewDidLoad];
     
     [YHPackageFrameWorkObject displayVersion];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

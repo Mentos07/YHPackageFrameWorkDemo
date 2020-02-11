@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of YHPackageFrameWorkDemo.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/292017666@qq.com/YHPackageFrameWorkDemo",
+  "homepage": "https://github.com/Mentos07/YHPackageFrameWorkDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "292017666@qq.com": "fuzhuowen@3cink.com"
   },
   "source": {
-    "git": "https://github.com/292017666@qq.com/YHPackageFrameWorkDemo.git",
+    "git": "https://github.com/Mentos07/YHPackageFrameWorkDemo.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -21,6 +21,7 @@
   "source_files": "YHPackageFrameWorkDemo/Classes/**/*",
   "resources": "YHPackageFrameWorkDemo/Assets/*.bundle",
   "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": "Masonry",
   "dependencies": {
     "Masonry": [
 
